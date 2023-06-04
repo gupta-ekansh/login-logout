@@ -1,0 +1,173 @@
+.logo{
+    background-image: url('../../assets/Rectangle.png');
+    height:555px;
+    width:620px;
+    margin-left: 50px;
+    /* display: flex; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border-radius: 20px;
+    font-weight: 600;
+}
+.name{
+    background-image:url('../../assets/exo.png');
+    height:100px;
+    width:100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:15%;
+    left: 5%;
+}
+.group{
+    height:10px;
+    width:50px;
+    /* background-color: rebeccapurple; */
+    background-image: url('../../assets/Group\ 8998.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top:68%;
+    left:5%;
+}
+.link a{
+    position: absolute;
+    bottom:15%;
+    left:5%;
+    text-decoration: none;
+    /* text-decoration: ; */
+    color:gray
+}
+.home{
+    height:713px;
+    width:100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comments {
+    line-height:40px;
+    position: absolute;
+    top:50%;
+    left:5%;
+    width:300px;
+    /* background-color: red; */
+    color:white;
+    font-size: 38px;
+}
+.sub-part{
+    color:grey;
+    font-size: 30px;
+    font-weight: 400;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    /* background-color: red; */
+    left:37%;
+    bottom:14%;
+}
+.socials a div{
+    /* background-image: url('../../assets/Vector.png'); */
+    height:20px;
+    width:20px;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+}
+.linkedin{
+    background-image: url('../../assets/Vector.png');
+}
+.facebook{
+    background-image: url('../../assets/Vector-1.png');
+}
+.instagram{
+    background-image: url('../../assets/Vector-2.png');
+}
+
+.right{
+    margin-right: 15%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:65%;
+}
+.leaves{
+    /* background-color: aquamarine; */
+    background-image: url('../../assets/petals\ 1.png');
+    height:15%;
+    width:100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* font-weight: 500; */
+    /* justify-content: center; */
+}
+.welcome{
+    display: block;
+    font-size: 34px;
+    font-weight: 500;
+}
+.back{
+    color:#08A593;
+}
+.glad{
+    font-size: 14px;
+    color:gray
+}
+.form input{
+    height:49px;
+    width:360px;
+    /* background-color: cadetblue; */
+    border: 2px solid #464660;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 40px 0px 0px 0px;
+}
+.form form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.form{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.submit{
+    height:53px;
+    width:360px;
+    border-radius: 10px;
+    font-size: 18px;
+    color:white;
+    background-color: black;
+    /* border: 1px solid black; */
+    border: none;
+    margin-top:15% ;
+    box-sizing: border-box;
+    box-shadow: 0px 15px 25px rgba(2, 1, 0, 0.42);
+}
+.submit:hover{
+    /* color:black; */
+    background-color: rgba(0, 0, 0, 0.929);
+    cursor: pointer;
+}
+.sign-in{
+    margin-top:auto;
+}
+.account{
+    color:grey;
+}
+.sign-in a {
+    color:#08A593;
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+.sign-up{
+    height:50%;
+    width:50%;
+    /* background-color: red; */
+}
+.sign-up-div{
+    /* background-color: blue; */
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pass{
+    color:gray;
+}
+.acc{
+    margin-top: 50px;
+}
+.acc button:disabled{
+    background-color: red;
+}
+span a{
+    text-decoration: none;
+    color:#08A593;
+}
